@@ -1,0 +1,25 @@
+h1{
+  color : white;
+  background-color: #191970;
+  text-align: center;
+}
+h2{
+  color: #191970;
+  background-color: #E6E6FA;
+  font-family: Times New Roman;
+  border: 3px dashed blue;
+  text-align: center;
+}
+td,th{
+  color: black;
+  padding: 10px 20px;
+}
+th{
+  background-color: #FFCCFF
+}
+td{
+  text-align: center;
+}
+tr:nth-child(even) td{
+  background-color: #291970;
+}

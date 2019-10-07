@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Project Title</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+    html {
+      font-family: Arial;
+    }
+    table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200,200,200);
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+    }
+    td, th {
+      border: 1px solid rgb(190,190,190);
+      padding: 10px 20px;
+    }
+    td {
+      text-align: center;
+    }
+    caption {
+      padding: 10px;
+    }
+
+    input:invalid {
+      border: 2px dashed red;
+    }
+
+    input:valid {
+      border: 2px solid black;
+    }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>Online Market</h1>
+
+    <h3>
+
+    <a href="tutoex2.html">Home</a>
+    <a href="Contact.html">Contact</a>
+
+    </h3>
+
+    <h2>New Product Details</h2>
+
+    <br>
+
+    <table>
+
+    <tr>
+      <th rowspan="4">Product</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+       <td>x1</td>
+       <td>x2</td>
+       <td>x3</td>
+       <td>x4</td>
+    </tr>
+    <tr>
+      <th>Price</th>
+       <td>3.00</td>
+       <td>5.00</td>
+       <td>7.00</td>
+       <td>9.00</td>
+    </tr>
+    <tr>
+      <th>Quantity</th>
+       <td>5</td>
+       <td>6</td>
+       <td>12</td>
+       <td>16</td>
+    </tr>
+
+  </table>
+
+  <br>
+
+    <form>
+
+    <fieldset>
+
+      <p>
+
+
+      <label for="date"><b>Choose your date :</b>
+      <input type="date" placeholder="dd/mm/yy" name="date" ></label>
+
+      </p>
+
+      <p>
+        <label for="number">Choose a number between 1 - 50 :</label>
+        <input type="number" name="number" min ="1" max="50" required>
+
+      </p>
+
+      <fieldset>
+
+    <legend>What is your favourite subject?</legend>
+
+    <p>
+
+
+      <input type="radio" name="size" checked id="size_1" value="small">
+
+      <label for="size_1">Math</label>
+
+
+
+      <input type="radio" name="size" id="size_2" value="medium">
+
+      <label for="size_2">Science</label>
+
+
+
+      <input type="radio" name="size" id="size_3" value="large">
+
+      <label for="size_3">Biology</label>
+
+    </p>
+
+    </fieldset>
+
+    <p>
+
+      <select aria-label="Study Level">
+        <optgroup>
+
+          <option selected>Study Level</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+
+        </optgroup>
+
+      </select>
+
+     <p>
+
+      <button type="submit" name="submit">Submit</button>
+      <button type="reset" name="reset">Reset</button>
+
+     </p>
+
+    </form>
+
+
+
+  </body>
+
+</html>
